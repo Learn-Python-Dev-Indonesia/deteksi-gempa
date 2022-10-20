@@ -1,5 +1,6 @@
 """
 Aplikasi Deteksi Gempa
+MODULARISASI DENGAN FUNCTION
 """
 
 
