@@ -1,10 +1,11 @@
 """
 Aplikasi Deteksi Gempa
 MODULARISASI DENGAN FUNCTION
+MODULARISASI DENGAN PACKAGE
 """
-from gempaterkini import ekstrasi_data, tampilkan_data
+import gempaterkini
 
 if __name__ == '__main__' :
     print('Aplikasi Utama')
-    result = ekstrasi_data()
-    tampilkan_data(result)
+    result = gempaterkini.ekstrasi_data()
+    gempaterkini.tampilkan_data(result)
